@@ -51,6 +51,13 @@ class Component extends BaseController
 		return view('mazer/component-carousel', compact('title'));
 	}
 
+	public function collapse()
+	{
+		$title = 'Collapse';
+
+		return view('mazer/component-collapse', compact('title'));
+	}
+
 	public function dropdown()
 	{
 		$title = 'Dropdown';
@@ -100,6 +107,13 @@ class Component extends BaseController
 		return view('mazer/component-spinner', compact('title'));
 	}
 
+	public function toasts()
+	{
+		$title = 'Toasts';
+
+		return view('mazer/component-toasts', compact('title'));
+	}
+
 	public function tooltip()
 	{
 		$title = 'Tooltip';
@@ -119,6 +133,13 @@ class Component extends BaseController
 		$title = 'Sweet Alert';
 
 		return view('mazer/extra-component-sweetalert', compact('title'));
+	}
+
+	public function extra_datePicker()
+	{
+		$title = 'Date Picker';
+
+		return view('mazer/extra-component-datepicker', compact('title'));
 	}
 
 	public function extra_toastify()

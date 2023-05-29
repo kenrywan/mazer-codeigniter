@@ -44,6 +44,7 @@ $routes->group('mazer', ['namespace' => 'App\Controllers\Mazer'], function($rout
 		$routes->get('button', 'Component::button');
 		$routes->get('card', 'Component::card');
 		$routes->get('carousel', 'Component::carousel');
+		$routes->get('collapse', 'Component::collapse');
 		$routes->get('dropdown', 'Component::dropdown');
 		$routes->get('list-group', 'Component::listGroup');
 		$routes->get('modal', 'Component::modal');
@@ -51,6 +52,7 @@ $routes->group('mazer', ['namespace' => 'App\Controllers\Mazer'], function($rout
 		$routes->get('pagination', 'Component::pagination');
 		$routes->get('progress', 'Component::progress');
 		$routes->get('spinner', 'Component::spinner');
+		$routes->get('toasts', 'Component::toasts');
 		$routes->get('tooltip', 'Component::tooltip');
 	});
 
@@ -58,6 +60,7 @@ $routes->group('mazer', ['namespace' => 'App\Controllers\Mazer'], function($rout
 		$routes->group('components', function($routes) {
 			$routes->get('avatar', 'Component::extra_avatar');
 			$routes->get('sweet-alert', 'Component::extra_sweetAlert');
+			$routes->get('date-picker', 'Component::extra_datePicker');
 			$routes->get('toastify', 'Component::extra_toastify');
 			$routes->get('rating', 'Component::extra_rating');
 			$routes->get('divider', 'Component::extra_divider');

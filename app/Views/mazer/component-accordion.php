@@ -18,7 +18,7 @@
                 >
                   <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                      <a href="index.html">Dashboard</a>
+                      <a href="<?= site_url("mazer"); ?>">Dashboard</a>
                     </li>
                     <li class="breadcrumb-item active" aria-current="page">
                       Accordion

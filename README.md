@@ -34,6 +34,6 @@ https://github.com/zuramai/mazer/releases/download/v2.1.0/template.zip
 - Extract and copy folder assets to Codeigniter Folder Public
 - Run
 ```
-php spark server
+php spark serve
 ```
 http://localhost:8080/mazer

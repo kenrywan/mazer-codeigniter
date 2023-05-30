@@ -29,11 +29,11 @@ git clone https://github.com/kenrywan/mazer-codeigniter.git
 ```
 composer install
 ```
-- Download Mazer Release
+- Download last Mazer release
 https://github.com/zuramai/mazer/releases/download/v2.1.0/template.zip
-- Extract and copy folder assets to Codeigniter Folder Public
-- Run
+- Extract and Copy assets Folder to Codeigniter Public Folder
+- Run local server
 ```
 php spark serve
 ```
-http://localhost:8080/mazer
+- Access at http://localhost:8080/mazer
